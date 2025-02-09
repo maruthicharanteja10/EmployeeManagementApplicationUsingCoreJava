@@ -45,6 +45,7 @@ Below is a neat diagram of the project structure:
 └── app
     └── EmployeeApp.java        // Main class with the console menu for user interaction
 
+'''
 ## Prerequisites
 
 - Java JDK 8 or higher
