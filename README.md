@@ -55,9 +55,9 @@ Below is a neat diagram of the project structure:
 ## Setup and Running the Application
 
 1. **Clone the Repository:**
-
-   bash
-   git clone https://github.com/your-username/EmployeeManagementApp.git
+   
+```bash
+   git clone  https://github.com/maruthicharanteja10/EmployeeManagementApplicationUsingCoreJava
    cd EmployeeManagementApp
    ```
 
