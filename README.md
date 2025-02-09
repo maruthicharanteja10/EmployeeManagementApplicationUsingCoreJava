@@ -45,46 +45,54 @@ Below is a neat diagram of the project structure:
 └── app
     └── EmployeeApp.java        // Main class with the console menu for user interaction
 
-Prerequisites
-Java JDK 8 or higher
-An IDE (such as IntelliJ IDEA, Eclipse, or VSCode) or a command-line environment for compiling and running Java applications
-Setup and Running the Application
-Clone the Repository:
+## Prerequisites
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/EmployeeManagementApp.git
-cd EmployeeManagementApp
-Compile the Project:
+- Java JDK 8 or higher
+- An IDE (such as IntelliJ IDEA, Eclipse, or VSCode) or a command-line environment for compiling and running Java applications
 
-If you are using the command line, navigate to the project root and compile the classes. For example:
+## Setup and Running the Application
 
-bash
-Copy
-Edit
-javac -d bin Entity/Employee.java service/EmployeeService.java serviceimpl/EmployeeServiceImpl.java app/EmployeeApp.java
-(Make sure to adjust the classpath separator if you're on Unix-based systems by replacing ; with :.)
+1. **Clone the Repository:**
 
-Run the Application:
+   ```bash
+   git clone https://github.com/your-username/EmployeeManagementApp.git
+   cd EmployeeManagementApp
+   ```
 
-Navigate to the output directory (e.g., bin) and run the main class:
+2. **Compile the Project:**
 
-bash
-Copy
-Edit
-java app.EmployeeApp
-The console menu will appear. Follow the on-screen instructions to add, search, update, or delete employee records.
+   If you are using the command line, navigate to the project root and compile the classes. For example:
 
-Future Enhancements
-Persistence: Integrate a database to store employee data persistently.
-Input Validation: Add robust input validation to improve reliability.
-Enhanced Error Handling: Provide more user-friendly error messages and logging.
-Graphical User Interface (GUI): Develop a GUI for a more interactive user experience.
-License
-This project is licensed under the MIT License.
+   ```bash
+   javac -d bin Entity/Employee.java service/EmployeeService.java serviceimpl/EmployeeServiceImpl.java app/EmployeeApp.java
+   ```
+   
+   *(Make sure to adjust the classpath separator if you're on Unix-based systems by replacing `;` with `:`.)*
 
-Contact
+3. **Run the Application:**
+
+   Navigate to the output directory (e.g., `bin`) and run the main class:
+
+   ```bash
+   java app.EmployeeApp
+   ```
+
+   The console menu will appear. Follow the on-screen instructions to add, search, update, or delete employee records.
+
+## Future Enhancements
+
+- **Persistence:** Integrate a database to store employee data persistently.
+- **Input Validation:** Add robust input validation to improve reliability.
+- **Enhanced Error Handling:** Provide more user-friendly error messages and logging.
+- **Graphical User Interface (GUI):** Develop a GUI for a more interactive user experience.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
 For questions or feedback, please contact:
 
-Email: charantejdonthireddy@gmail.com
+- **Email:** [charantejdonthireddy@gmail.com](mailto:charantejdonthireddy@gmail.com)
+```
