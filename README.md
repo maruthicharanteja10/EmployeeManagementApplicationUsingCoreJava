@@ -98,7 +98,3 @@ For questions or feedback, please contact:
 
 - **Email:** [charantejdonthireddy@gmail.com](mailto:charantejdonthireddy@gmail.com)
 ```
-
----
-
-
